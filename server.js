@@ -68,7 +68,7 @@ const PORT = 5000;
 
 //Connect to MongoDB
 mongoose
-  .connect('mongodb+srv://suhas22010524:Suhas@2116@cluster0.5po0328.mongodb.net/?retryWrites=true&w=majority')
+  .connect('mongodb+srv://mvpatil4321:admin@cluster69.e7st5or.mongodb.net/?retryWrites=true&w=majority')
   .then((data) => {
     _response.database = "Healthy";
     console.log(`MongoDB connected with server ${data.connection.host}`);
